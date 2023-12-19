@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.eleven {
+  direction: rtl;
+}
+div.avalin {
+  direction: rtl;
+}
+input.avalinn {
+  direction: ltr;
+}
+body {
+  justify-items: center;
+  overflow-x: hidden;
+}
+.swiper{
+  width: 600px;
+  height: 300px;
+}
+.swiper-two{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav{
+  position: sticky;
+  top: 0px;
+}

@@ -1,0 +1,3149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/must.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="forthree">
+      <nav id="nav" class=" border-gray-200 bg-white lg:w-full sm:w-10/12 sticky top-0 z-50">
+        <div class=" flex flex-wrap lg:w-full sm:w-11/12 lg:gap-72 items-center lg:justify-evenly sm:justify-center sm:mx-0 p-4 sm:gap-24">
+        <div class="avalin flex md:order-2 gap-16">
+          <a href="https://flowbite.com/" class=" flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="media/باسلام.svg" class="h-8" alt="Flowbite Logo" />
+            
+        </a>
+          <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+            <span class="sr-only">Search</span>
+          </button>
+          <div class="relative hidden md:block">
+            <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+              <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+              </svg>
+              <span class="sr-only">Search icon</span>
+            </div>
+            <input type="text" id="Search-Input" class="  p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg h-12 dark:border-gray-600  dark:text-white lg:w-[650px] sm:h-[400px] font-IranSans" placeholder="جستوجو در بازار ">
+          </div>
+          <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+          <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+            <div class="relative mt-3 md:hidden">
+              <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                </svg>
+              </div>
+              <input type="text" id="Search-Input" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  " placeholder="جستوجو در بازار">
+            </div>
+            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="#" class=" py-2 px-3 flex justify-center items-center flex-col rounded md:bg-transparent text-black md:p-0  font-IranSans" aria-current="page">
+                  <img src="./media/cart-shopping-solid.svg" alt="" class="w-7 h-7">
+                  سبد خرید</a>
+              </li>
+              <li>
+                <a href="#" id="sabtenam" class=" py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent flex flex-col md:p-0 dark:text-white justify-center items-center dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700 font-IranSans">
+                  <img src="./media/user-solid.svg" alt="" class="w-7 h-7">
+                   ورود / ثبت نام 
+                  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          
+          <!-- click input -->
+      <div class="flex flex-wrap w-100 bg-neutral-700 lg:mx-[770px] lg:mb[200px] ">
+        <div
+              class="hidden shadow-xl md:mx-auto"
+              id="Click-Input"
+            >
+              <div>
+                <form class="search form w-[600px] h-[64px] flex flex-row">
+                  <input
+                    type="text"
+                    class="w-[536px] h-[52px] font-IranSans text-right border-none"
+                    placeholder=" جستوجو در بازار"
+                  />
+                  <div
+                    class="w-[52px] h-[50px] items-center mx-auto flex justify-center bg-white"
+                  >
+                    <button class="w-[24px] h-[50px] mx-auto cursor-none">
+                      <img src="./media/search-solid.svg" alt="" />
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="w-[600px] h-[174px] flex flex-col-reverse p-5 bg-gray-100"  id="click-Inputt">
+                <div
+                  class="text-right flex flex-row-reverse h-[174px] gap-[12px] w-[552px] mt-[20px]"
+                >
+                  <div
+                    class="w-[49px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px] items-center"
+                  >
+                    تلوزیون
+                  </div>
+                  <div
+                    class="w-[37px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    اسپیکر
+                  </div>
+                  <div
+                    class="w-[60px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    توپ فوتبال
+                  </div>
+                  <div
+                    class="w-[59px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    مانتو عبایی
+                  </div>
+                  <div
+                    class="w-[61px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    کاپشن زنانه
+                  </div>
+                  <div
+                    class="w-[63px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    لوازم التحریر
+                  </div>
+                  <div
+                    class="w-[44px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    گوشواره
+                  </div>
+                  <div
+                    class="w-[27px] h-[24px] bg-gray-300 text-[12px] flex justify-center font-IranSans rounded-[5px]"
+                  >
+                    توپ
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="font-IranSans font-bold text-gray-800 text-right"
+                    >جستوجو های پر طرفدار
+                  </span>
+                </div>
+              </div>
+            </div>
+      </div>
+          <!-- sabte nam-->
+          <div class="hidden" id="sabtename">
+            <div
+              class="w-[880px] h-[486px] mx-auto z-50 border flex flex-row justify-center"
+            >
+              <div class="w-[558px] h-[486px] py-[16px] px-[32px]">
+                <div class="w-[494px] h-[48px] flex justify-start items-start">
+                  <button
+                    class="w-[54px] h-[48px] text-center text-[28px] text-gray-700"
+                    id="hide"
+                  >
+                    x
+                  </button>
+                </div>
+                <div
+                  class="w-[494px] h-[386px] flex justify-end flex-col pb-[48px] px-[24px]"
+                >
+                  <h2 class="font-IranSans text-[20px] text-right pb-[16px]">
+                    ثبت نام / ورود
+                  </h2>
+                  <div class="w-[441px] h-[285px]">
+                    <div class="w-[441px] h-[34px] flex justify-end">
+                      <p class="font-IranSans">لطفا شماره موبایل خود را وارد کنید</p>
+                    </div>
+                    <div
+                      class="w-[440px] h-[56px] px-[16px] bg-white flex justify-center items-center rounded border-2 border-[rgb(158,158,167)]"
+                    >
+                      <input
+                        type=""
+                        class="w-[414px] h-[32px] border-none font-IranSans text-right text-[rgb(158,158,167)]"
+                        placeholder="شماره موبایل"
+                      />
+                    </div>
+                    <div
+                      class="w-[441px] h-[20px] flex justify-end mt-[6px] items-end"
+                    >
+                      <span
+                        class="w-[89px] h-[20px] text-[rgb(158,158,167)] font-IranSans text-[10px]"
+                        >مثال: ** ** *** ۰۹۱۲</span
+                      >
+                    </div>
+                    <div class="w-[441px] h-[19px] mt-[24px] flex justify-end">
+                      <label for="r8" class="w-[195px] h-[18px] flex justify-end">
+                        <span class="font-IranSans text-[12px] mr-[5px] text-gray-700"
+                          >موافقم</span
+                        >
+                        <a
+                          href="#"
+                          class="font-IranSans text-[12px] text-sky-600 border-dashed border-b border-b-sky-800"
+                        >
+                          قوانین و مقررات باسلام</a
+                        >
+                        <span class="font-IranSans text-[12px] ml-[5px] text-gray-700"
+                          >با</span
+                        >
+      
+                        <input
+                          type="checkbox"
+                          name=""
+                          id="r8"
+                          class="h-[20px]  w-[20px] rounded border-2 ml-[5px] checkbox"
+                        />
+                      </label>
+                    </div>
+                    <button
+                      class="w-[440px] h-[52px] bg-[rgb(255,92,57)] px-[16px] mt-[32px] rounded"
+                    >
+                      <h2 class="font-IranSans text-[16px] font-extrabold text-white">
+                        دریافت کد تایید
+                      </h2>
+                    </button>
+                    <div
+                      class="w-[440px] h-[40px] flex justify-end mt-[10px] items-center"
+                    >
+                      <button class="w-[118px] h-[24px]">
+                        <h3 class="font-IranSans font-extrabold text-gray-700">
+                          ورود با کلمه عبور
+                        </h3>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-[329px] h-[486px] bg-[rgb(255,92,57)] flex justify-center items-center flex-col"
+              >
+                <div class="w-[155px] h-[161px] bg-orange-900">
+                  <img
+                    src="./media/logobsm.webp"
+                    alt=""
+                    class="w-[155px] h-[161px]"
+                  />
+                  <div class="w-[100px] h-[57px] bg-green-500 mx-auto mt-[45px]">
+                    <img
+                      src="./media/logo2bpsam.png"
+                      alt=""
+                      class="w-[100px] h-[57px]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="lg:w-100 sm:w-100 h-[56px] flex flex-row flex-wrap justify-center relative items-center mx-auto mt-[10px] "
+          >
+           <div class=" lg:w-6/12 sm:w-full  lg:h-full absolute right-0 flex items-center justify-end gap-6">
+            <a
+            href="#"
+            class="font-IranSans lg:w sm:w-3/12 text-center text-[16px] hover:text-orange-600 transition-colors"
+          >
+            بازار گردی</a
+          >
+          <a
+            href="#"
+            class="font-IranSans sm:w-3/12  text-[16px] text-center hover:text-orange-600 transition-colors "
+          >
+            غرفه دار شو</a
+          >
+          <a
+            href="#"
+            class="font-IranSans  sm:w-3/12 text-[16px] text-center hover:text-orange-600 transition-colors "
+          >
+            نصب آپ
+          </a>
+    
+          <button
+            id="dropdownHoverButton"
+            data-dropdown-toggle="dropdownHover"
+            data-dropdown-trigger="hover"
+            class="text-black focus:ring-4 text-[16px] focus:outline-none focus:ring-blue-300 font-medium rounded-lg  text-start inline-flex items-start sm:w-3/12 font-IranSans hover:text-orange-600 w-3/12 "
+            type="button"
+          >
+            دسته بندی ها
+            
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"
+              />
+            </svg>
+          </button>
+           </div>
+      
+            <!-- Dropdown menu -->
+            <div
+              id="dropdownHover"
+              class="z-10 bg-white mt-0 pb-52 w-[1360px] h-[620px]  rounded-lg  items-center mx-auto flex justify-center overflow-y-auto"
+            >
+            <!--eleven-->
+      
+            <div class="hidden overflow-y-auto absolute left-0 eleven  top-[-40px]" id="foreleven">
+              <div class="flex h-[700px] w-[1000px] overflow-y-auto ">
+      
+                <div
+                  class="w-[250px] pb-[150px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                >
+           
+              <a
+                href="#"
+                class="w-[250px] mb-[308px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+               دکوراتیو سفالی و سرامیکی</a
+              >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   روغن های پوست</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                  روغن های درمانی
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                  روغن های مراقبتی و درمانی
+                  </a>
+                </div>
+                <div
+                  class="w-[250px] pb-[153px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                >
+                
+                  <a
+                    href="#"
+                    class="w-[250px] mb-[300px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   دکوراتیو سفالی و سرامیکی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ظروف سفالی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ظروف سرامیکی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                  سفال , کاشی و سرامیک</a
+                  >
+                </div>
+              </div>
+            </div>
+            
+            <!--ten-->
+      
+            <div class="hidden overflow-y-auto  absolute left-0 top-[-40px]" id="forten">
+              <div class="flex h-[700px] w-[1000px] overflow-y-auto top-0">
+                <div
+                class="w-[250px] pb-[400px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+              >
+              <a
+              href="#"
+              class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+            >
+             لوازم گردش و سفر کودک</a
+            >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 لوازم شخصی کودک</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                غذاخوری کودک</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+               بهداشت و حمام کودک
+                </a>
+      
+                <a
+                  href="#"
+                  class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                >
+                 مراقبت کودک و نوزاد</a
+                >
+              </div>
+                <div
+                  class="w-[250px] pb-[480px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+               گیاهان دارویی
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+              گیاهی دارو های
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                   گیاه درمانی</a
+                  >
+                </div>
+      
+                <div
+                  class="w-[250px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                ><a
+                href="#"
+                class="w-[250px] mb-[30px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+              کفش چرم دست دوز</a
+              >
+            <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+               کیف چرم دست دوز</a
+              >
+            <a
+                href="#"
+                class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+              >
+               چرم دست دوز و طبیعی</a
+              >
+           
+              <a
+                href="#"
+                class="w-[250px] mb-[308px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+               دکوراتیو سفالی و سرامیکی</a
+              >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   روغن های پوست</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                  روغن های درمانی
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                  روغن های مراقبتی و درمانی
+                  </a>
+                </div>
+                <div
+                  class="w-[250px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                >
+                <a
+                    href="#"
+                    class="w-[250px] mb-[27px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  کفش چرم دست دوز</a
+                  >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   کیف چرم دست دوز</a
+                  >
+                <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                   چرم دست دوز و طبیعی</a
+                  >
+               
+                  <a
+                    href="#"
+                    class="w-[250px] mb-[300px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   دکوراتیو سفالی و سرامیکی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ظروف سفالی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ظروف سرامیکی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                  سفال , کاشی و سرامیک</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--nine-->
+      
+            <div class="hidden overflow-y-auto absolute left-0 top-[-40px]" id="fornine">
+              <div class="flex h-[700px] w-[1000px] overflow-y-auto top-0">
+                <div
+                class="w-[250px] pb-[400px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+              >
+              <a
+              href="#"
+              class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+            >
+             لوازم گردش و سفر کودک</a
+            >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 لوازم شخصی کودک</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                غذاخوری کودک</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+               بهداشت و حمام کودک
+                </a>
+      
+                <a
+                  href="#"
+                  class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                >
+                 مراقبت کودک و نوزاد</a
+                >
+              </div>
+                <div
+                  class="w-[250px] pb-[480px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+               گیاهان دارویی
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+              گیاهی دارو های
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                   گیاه درمانی</a
+                  >
+                </div>
+      
+                <div
+                  class="w-[250px] pb-[490px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   روغن های پوست</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                  روغن های درمانی
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                  روغن های مراقبتی و درمانی
+                  </a>
+                </div>
+                <div
+                  class="w-[250px] pb-[230px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    محافظ طبی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ابزار های پزشکی</a
+                  >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ماسک و شیلد صورت</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    مساژور</a
+                  >
+      
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   لوازم خواب طبی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    کمک های اولیه</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   کیسه آب گرم وسرد</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    دستگاه بخور</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ابزار توانبخشی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                  ابزار سلامت و طب</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--eight-->
+      
+            <div class="hidden overflow-y-auto absolute left-0 top-[-40px] pt-0" id="foreight">
+              <div class="flex h-[700px] w-[1000px] overflow-y-auto top-0">
+                <div
+                class="w-[250px] pb-[440px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+              >
+      
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 چمدان</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                ساک</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+               کیف و کوله ورزشی
+                </a>
+      
+                <a
+                  href="#"
+                  class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                >
+                 چمدان و ساک</a
+                >
+              </div>
+                <div
+                  class="w-[250px] pb-[480px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   تجهیزات کفش</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                کفش
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                  >
+                   کفش ورزشی و تجهیزات </a
+                  >
+                </div>
+      
+                <div
+                  class="w-[250px] pb-[490px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   لباس ورزشی مردانه و پسرانه</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                  لباس ورزشی زنانه و دخترانه 
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                  >
+                   لباس ورزشی
+                  </a>
+                </div>
+                <div
+                  class="w-[250px] pb-[305px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    مکمل ورزشی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    دوچرخه و تجهیزات دوچرخه </a
+                  >
+      
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   اکسسوری ورزشی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    دستگاه های ورزشی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   تجهیزات ورزش های توپی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    تجهیزات ورزش های آبی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    تجهیزات هوازی و تناسب اندام</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                  لوازم ورزشی </a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--seven-->
+      
+            <div class="hidden overflow-y-auto absolute left-0 top-[-40px]" id="forseven">
+              <div class="flex h-[700px] w-[1000px] overflow-y-auto">
+                <div
+                class="w-[250px] pb-[240px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+              >
+              <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 دوربین ورزشی و گوپرو</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 دوربین فیلمبرداری</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                دوربین شکاری و دو چشمی </a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 دوربین ورزشی و گوپرو</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                  تلسکوپ</a
+                >
+      
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 دوربین عکاسی</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 میکروسکوپ</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                لوازم جانبی عکاسی و فیلمبرداری
+                </a>
+      
+                <a
+                  href="#"
+                  class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                >
+                  دوربین و لوازم جانبی</a
+                >
+              </div>
+                <div
+                  class="w-[250px] pb-[280px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    کنسول بازی</a
+                  >
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+                ست گیمینگ</a
+              >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    بازی رایانه و کنسول</a
+                  >
+                  <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                  دسته گیم(گیم پد)</a
+                >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    فرمان ماشین</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   برچسب و کاور کنسول</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                سایر لوازم جانبی کنسول
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                    کنسول بازی و لوازم جانبی</a
+                  >
+                </div>
+      
+                <div
+                  class="w-[250px] pb-[384px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  کابل رابط
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    مبدل و آداپتور</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  چند راهی برق و محافظ ولتاژ
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   محافظ و نگهدارنده کابل</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                  سایر کابل و تبدیل
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                   کابل , رابط و مبدل
+                  </a>
+                </div>
+                <div
+                  class="w-[250px] pb-[80px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                > 
+                <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    ساندبار</a
+                  >
+                <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    لوازم جانبی تلوزیون</a
+                  >
+                <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    سابووفر وآمپلی فایر</a
+                  >
+                <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    تجهیزات استودیویی</a
+                  >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    سیستم صوتی خانگی</a
+                  >
+                  <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                  رادیو و گرامافون</a
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    اندورید باکس</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    تلوزیون</a
+                  >
+      
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   سینما خانگی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    پخش کننده تصویری</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   گیرنده دیجیتال</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    پخش کننده تصویری</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    تجهیزات استودیویی</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                  صوتی و تصویری</a
+                  >
+                </div>
+              </div>
+            </div>
+            
+            <!--six -->
+      
+            <div class="hidden overflow-y-auto absolute left-0 top-[-40px]" id="forsix">
+              <div class="flex h-[700px] w-[1000px] overflow-y-auto">
+                <div
+                class="w-[250px] pb-[365px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+              >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 لوازم جانبی موسیقی</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                  ساز هابی کوبه ای</a
+                >
+      
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 ساز های کلیددار و الکترونیک</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                 ساز های بادی</a
+                >
+                <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                ساز های زهی و آرشه ای
+                </a>
+      
+                <a
+                  href="#"
+                  class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                >
+                  ابزار موسیقی</a
+                >
+              </div>
+                <div
+                  class="w-[250px] pb-[405px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    پازل</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    لگو و خانه سازی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   لازی های رومیزی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                بازی آموزشی
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                    بازی فکری </a
+                  >
+                </div>
+      
+                <div
+                  class="w-[250px] pb-[248px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                >
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             ماسک و تنپوش کارتونی
+              </a>
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             اسباب بازی نوزاد
+              </a>
+              <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             اسباب بازی دخترانه
+              </a>
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             عروسک  و فیگور
+              </a>
+                  
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  تفگ اسباب بازی و مبارزه 
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    اسباب بازی وسایل نقلیه </a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  اسباب بازی موزیکال
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   اسباب بازی فضای باز</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                  >
+                   اسباب بازی ربات و گجت
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                    اسباب بازی
+                  </a>
+                </div>
+                <div
+                  class="w-[250px] pb-[230px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                > 
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    تخته سیاه و وایت برد</a
+                  >
+                  <a
+                  href="#"
+                  class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                >
+                  چسب</a
+                >
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    کاغذ و مقوا</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    لوازم نقاشی</a
+                  >
+      
+                <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    لوازم اداری</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    لوازم اداری</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    لوازم دانش آموزی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    دفتر و کلاسور</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    نوشت ابزار</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                  >
+                   لوازم التجریر</a
+                  >
+                </div>
+              </div>
+            </div>
+            
+              <!--five -->
+      
+              <div class="hidden overflow-y-auto absolute left-0 top-[-40px]" id="forfive">
+                <div class="flex h-[700px] w-[1000px] overflow-y-auto">
+                  <div
+                  class="w-[250px] pb-[45px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                >
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             اتو لوله</a
+              >
+              <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             دستگاه جوش</a
+              >
+              <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+            دستگاه مکنده و دمنده</a
+              >
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             سشوار صنعتی</a
+              >
+                <a
+                href="#"
+                class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+              >
+             هویه و لحیم</a
+              >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  بکس و آچار ضربه ای</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    دستگاه چسب
+                  </a>
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    اره برقی و موتوری</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    پیچ گوشتی برقی و شارژی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                    دریل و مته</a
+                  >
+      
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   ابزار اندازه گیری دیجیتال</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                   قطعات الکترونیکی</a
+                  >
+                  <a
+                    href="#"
+                    class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                  >
+                  فرز و پروفیل بر
+                  </a>
+      
+                  <a
+                    href="#"
+                    class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                  >
+                    ابزار برقی</a
+                  >
+                </div>
+                  <div
+                    class="w-[250px] pb-[245px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                     کفشور</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لولا و آرام بند
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ابزار نقاشی ساختمان </a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      رنگ و اسپری ساختمان</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پوشش کف و سقف </a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پوستر و کاغذ دیواری</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                     کابینت</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                    مصالح ساختمانی
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                    >
+                      لوازم و یراق آلات ساختمانی</a
+                    >
+                  </div>
+      
+                  <div
+                    class="w-[250px] pb-[355px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                    کپسول آتش نشانی
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      عینک و کلاه ایمنی</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                    دستکش کار
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                     کفش ایمنی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                     لباس کار
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      تجهیزات ایمنی و کار
+                    </a>
+                  </div>
+                  <div
+                    class="w-[250px] pb-[420px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px] "
+                  > 
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      دستگیره درب و کمد</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      گاو صندق</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      قفل</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      درب ورودی</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                    >
+                     حفاظ و امنیتی</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--four -->
+      
+              <div class="hidden overflow-y-auto absolute left-0 top-[-40px]" id="forfour">
+                <div class="flex h-[700px] w-[1000px] overflow-y-auto">
+                  <div
+                    class="w-[250px] pb-[199px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px] "
+                    >
+                     لنز چشم</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      رنگ ابرو</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مداد و سایه ابرو
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      خط چشم و سرمه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مداد چشم</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آرایش مژه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سایه چشم</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                     آرایش ابرو</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                     ریمل
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      آرایش چشم و ابرو</a
+                    >
+                  </div>
+      
+                  <div
+                    class="w-[250px] pb-[385px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مراقب لب</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بالم لب</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مداد و خط لب</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                     رژ مایع
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      رژ لب</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                     آرایش و مراقبت لب</a
+                    >
+                  </div>
+                  <div
+                    class="w-[250px] pb-[295px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                     تثبیت کننده آرایش
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      هایلایتر
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                     کانتور</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                    کانسیلر
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پرایمر</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                     رژ گونه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                     پنکک</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                     کرم پودر
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      آرایش صورت
+                    </a>
+                  </div>
+                  <div
+                    class="w-[250px] pb-[20px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[14px] "
+                  > <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کرم دور چشم</a
+                    ><a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سرم و اسپری مو
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      تونر پوست و مو</a
+                    ><a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      تقویت کننده مو و ابرو و مژه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آبرسان</a
+                    ><a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ماسک صورت</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پاک سازی پوست
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      اسکراب و لایه بردار</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ماسک مو</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پاک کننده آرایش و صورت</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کرم دست, صورت و بدن
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      موبر صورت و بدن</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      صابون</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شوینده بدن و مو</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کرم ضد آفتاب</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      روغن های پوست و مو</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                    >
+                      مراقبت پوست , مو و بدن</a
+                    >
+                  </div>
+                </div>
+              </div>
+      
+              <!--three -->
+      
+              <div class="hidden absolute left-0 top-[-40px]" id="forthree">
+                <div class="flex h-[700px] w-[1000px] overflow-auto">
+                  <div
+                    class="w-[250px] pb-[123px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سبزی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      نشاسته</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      خلال ها</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سس</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سرکه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آبغوره</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آبلیمو</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      رب ها</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ادویه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      زرشک</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      زعفران
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      ادویه و چاشنی</a
+                    >
+                  </div>
+      
+                  <div
+                    class="w-[250px] pb-[180px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      حلوا</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      دسر</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      تنقلات</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کیک</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شیرینی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      نبات
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      گز</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سوهان</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کلوچه و نان شیرینی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شکلات و آبنات
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ترشک و لواشک</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      شیرینی و تنقلات</a
+                    >
+                  </div>
+                  <div
+                    class="w-[250px] pb-[148px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سنجد</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آلو خشک</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کشمش , نخودچی و مویز</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      فندق</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بادام هندی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بادام زمینی
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بادام درختی
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      میوه خشک</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      تخمه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      گردو</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پسته
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                      خرما</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آجیل
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      آجیل و خشکبار
+                    </a>
+                  </div>
+                  <div
+                    class="w-[250px] pb-[232px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[17px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سویق و پودر جوانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آرد</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      نان</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      غلات
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ماکارانی,پاستا و رشته</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      قند و شکر</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      روغن های خوراکی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      حبوبات و سویا</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      برنج</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                    >
+                      خوار و بار</a
+                    >
+                  </div>
+                </div>
+              </div>
+      
+              <!--tow -->
+      
+              <div class="hidden absolute left-0 top-[-40px]" id="fortow">
+                <div class="flex h-[700px] w-[1000px] overflow-auto">
+                  <div
+                    class="w-[250px] pb-[123px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      اکسسوری و ساعت پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کلاه,شالگردن و دستکش پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سویشرت,هودی و ژاکت</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کاپشن , کت و جلیقه پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کفش و دمپایی پسرانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کیف پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      جوراب پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس ست پسرانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس زیر پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شلوار,شلوارک و سرهمی پسرانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بلوز,پیراهن و تیشرت پسرانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      پسرانه</a
+                    >
+                  </div>
+      
+                  <div
+                    class="w-[250px] pb-[40px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کلاه,شاگردن و دستکش دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شویشرت, هودی و ژاکت دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ساعت دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پالتو وکاپشن دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      اکسسوری دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      زیورآلات دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کفش و دمپایی دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کیف دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      جوراب و جوراب شلواری دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شال و روسری دخترانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      دامن دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شلوار و سرهمی دخترانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس ست دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس زیر دخترانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بلوز,پیراهن و سارافون دخترانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500"
+                    >
+                      دخترانه</a
+                    >
+                  </div>
+                  <div
+                    class="w-[250px] pb-[88px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کلاه,شالگردن و دستکش مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سویشرت ,هودی و ژاکت مردانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پالتو وکاپشن مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      اکسسوری مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      عینک مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ساعت مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      زیورآلات مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کت و شلوار و جلیقه مردانه
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کفش,دپایی مردانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کیف مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      جوراب مردانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شلوار و شلوارک مردانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس راحتی مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] my-[8px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                      تیشرت و پولوشرت مردانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] my-[3px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بلوز و پیراهن مردانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px] hover:text-orange-500" 
+                    >
+                      مردانه</a
+                    >
+                  </div>
+                  <div
+                    class="w-[250px] pb-[25px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[10px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >عینک زنانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >پالتو,بارانی و کاپشن زنانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >لباس بارداری
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >کلاه,شالگردن
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کت و ست رسمی زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ساعت زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      زیورآلات زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >چادر و پوشش اسلامی
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >کفش و دمپایی زنانه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کیف زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      جوراب,ساق وساپورت زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      دامن زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مانتو وتونیک
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شلوار و سرهمی زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس راحتی و لباس خواب</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لباس زیر زنامه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      تاپ و تیشرت زنانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بلوز,پیراهن وشومیز زنانه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] text-black border-gray-100 border-b items-center text-right hover:text-orange-500 h-[30px] font-bold pr-[13px]"
+                    >
+                      زنانه</a
+                    >
+                  </div>
+                </div>
+              </div>
+      
+              <!--one -->
+              <div
+                class="flex h-[700px]  w-[1000px] overflow-y-hidden absolute top-[-40px] left-0"
+                id="forone"
+              >
+                <div class="flex h-[700px] w-[1000px] overflow-auto" id="onee">
+                  <div
+                    class="w-[250px] pb-[325px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      جاکفشی ونظافت کفش</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      نظم دهنده لباس</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کمد , کتابخانه , بوفه</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      صندلی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      میز</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مبل</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] hover:text-orange-500 text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                    >
+                      مبلمان , میز و صندلی</a
+                    >
+                  </div>
+      
+                  <div
+                    class="w-[250px] pb-[205px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      استیکر و مکنت</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      مجسمه و تندیس</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لوازم مهمانی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      گل مصنوعی</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شمع</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      شلف و استند</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      رومیزی و رانر</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ساعت دیواری و دکوری</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آینه و تابلو سازی</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] hover:text-orange-500 text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                    >
+                      دکوری تزینی</a
+                    >
+                  </div>
+                  <div
+                    class="w-[250px] pb-[35px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[20px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لوستر</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پنکه
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      میوه خشک کن</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آرام پز بخار پز پلوپز</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      آبمیوه گیری و مرگبات گیری</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      چرخ گوشت برقی و دستی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      اتو و میز اتو</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                      >سرخ کن و کباب پز
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      خرد کن و غذا ساز
+                    </a>
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[15px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ماشین لباسشویی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      بخاری و گرمایشی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      کولر گازی و آبی</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      جارو برقی , جارو شارژی و بخار شوی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                      چای ساز و قهوه ساز</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[10px] hover:text-orange-500 pr-[13px]"
+                    >
+                      یخچال و فریزر</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] text-[14px] hover:text-orange-500 text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                    >
+                      لوازم برقی</a
+                    >
+                  </div>
+                  <div
+                    class="w-[250px] pb-[110px] text-[14px] h-[650px] bg-white flex flex-col-reverse items-center font-IranSans gap-[15px]"
+                  >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سفره و زیر بشقابی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      دستمال کاغذی و اشپزخانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >سرویس پارچه ای اشپزخانه
+                    </a>
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                      >ظروف یکبار مصرف</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      سطل, سبد و آبکش</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ابزار قنادی</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      پارچ, لیوان و بطری</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      قاشق,چنگال و کارد</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      فلاسک, کلمن و ماگ</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ظروف سرو و پذیرایی</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لوازم تهیه و سرو چای</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-[14px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      ظروف آشپزخانه</a
+                    >
+                    <a
+                      href="#"
+                      class="w-[250px] text-gray-600 items-center text-right h-[20px] hover:text-orange-500 pr-[13px]"
+                    >
+                      لوازم پخت و پز</a
+                    >
+      
+                    <a
+                      href="#"
+                      class="w-[230px] hover:text-orange-500 text-[14px] text-black border-gray-100 border-b items-center text-right h-[30px] font-bold pr-[13px]"
+                    >
+                      لوازم آشپزی</a
+                    >
+                  </div>
+                </div>
+              </div>
+      
+              <div
+                class="w-[350px] pb-[35px] h-[600px] flex-col-reverse font-IranSans overflow-auto border-l-2 absolute right-0"
+              >
+                <div class="flex flex-col-reverse font-IranSans overflow-auto">
+                  <a
+                   id="eleven"
+                    href="#"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                    >خدمات و کسب کار</a
+                  >
+                  <a
+                  id="ten"
+                    href="#"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                    >صنایع دستی</a
+                  >
+                  <a
+                  id="nine"
+                    href="#"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                  >
+                    سلامت,درمان و طب</a
+                  >
+                  <a
+                  id="eight"
+                    href="#"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                  >
+                    ورزش و سفر</a
+                  ><a
+                    href="#"
+                    id="seven"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                    >کالای دیجیتال</a
+                  ><a
+                    href="#"
+                    id="six"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                    >فرهنگی ,آموزشی و سرگرمی</a
+                  ><a
+                    href="#"
+                    id="five"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                    >ابزار وتجهیزات خودرو</a
+                  ><a
+                    href="#"
+                    id="four"
+                    class="w-[340px]items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                  >
+                    آرایشی بهداشتی</a
+                  ><a
+                    href="#"
+                    id="three"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                  >
+                    مواد غذایی </a
+                  ><a
+                    href="#"
+                    id="tow"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                  >
+                    مد و پوشاک</a
+                  ><a
+                    href="#"
+                    id="one"
+                    class="w-[340px] items-center text-center h-[50px] hover:bg-orange-100 pt-[7px]"
+                  >
+                    خانه و آشپزی</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <div class="bg-gray-200 flex lg:flex-wrap justify-end pt-6 ">
+            <div class=" flex flex-wrap lg:justify-center  items-end lg:px-12 sm:px-0 lg:flex-row font-IranSans">
+                <div class=" flex flex-wrap justify-center items-end  lg:px-12 sm:px-0 flex-row font-IranSans text-[14px] text-gray-500 gap-3"><h3 class=" lg:text-[16px] sm:text-[10px] lg:text-right sm:text-right">  
+                    اوت چوکو مزکس(رژیمی)120گرم اصل مالزی(وگن)درجه یک پک(1)بسته ای یک هدیه خوشمزه و مفید</h3> <
+                    <h3>  شکلات و آبنبات </h3> < <h3> شیرینی و تنقلات </h3> < <h3>مواد غذایی   </h3> < <h3 >خانه  </h3 >
+                </div>
+            </div>
+        </div>
+        
+        <div class="w-100 bg-gray-200 lg:flex sm:flex pb-28 lg:flex-row sm:flex-col-reverse relative">
+            <div class="w-11/12  mx-auto lg:flex sm:flex lg:flex-row sm:flex-col-reverse flex-wrap lg:justify-center sm:justify-center lg:gap-5 sm:gap-0 lg:items-center sm:items-center mt-2 lg:p-0 sm:p-3">
+                <div class=" lg:w-3/12 sm:w-5/12 bg-white lg:flex sm:flex flex-col text-right p-4 justify-end items-end lg:mb-72 ">
+                  <div class="w-full bg-white ">
+                    <div class="w-full p-0 bg-white">
+                    <h2 class="font-IranSans font-bold pb-1">غرفه دار</h2>
+                    <div class="  flex flex-row justify-end items-start gap-2">
+                        <div class="flex flex-col gap-1">
+                            <a href="#" class="font-IranSans hover:text-orange-500 ">میلی شاب سنتر</a>
+                            <p class="font-IranSans text-gray-500 text-[12px]">میلی شاب</p>
+                        </div>
+                    <div class="w-16 h-16 rounded-full bg-yellow-500">
+                        <a href="#"><img src="./media/boy.webp" alt="" class="rounded-full transition ease-in-out delay-150"></a>
+                        
+                    </div>
+                    </div>
+                    <div class="w-8/12  flex flex-row justify-end items-start gap-3">
+                        <div class="w-10 h-10 rounded-full p-1 bg-slate-200">
+                            <a href="#"><img src="./media/yadsad.SVG" alt=""></a>
+                        </div>
+                        <div class="w-10 h-10 rounded-full p-1 bg-slate-200">
+                           <a href="#"> <img src="./media/yad.SVG" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="w-full h-16 flex flex-row justify-center items-center gap-1">
+                      <button class="w-6/12 h-10 bg-white border-2 border-gray-300 hover:bg-gray-200 transition rounded font-IranSans">اطلاعات بیشتر</button>
+                      <button class="w-6/12 h-10 bg-white text-orange-500 hover:bg-orange-100 transition rounded border-2 font-bold text-[16px] border-orange-500 font-IranSans">
+                            گفت و گو
+                      </button>
+                    </div>
+                    <div class="w-full font-IranSans text-[14px] text-gray-400">آخرین بازدید: یک ساعت پیش
+
+                    </div>
+                </div>
+            </div>
+                </div>
+                <div class=" lg:w-8/12 sm:w-7/12 bg-white flex flex-row justify-center items-end p-3 gap-3">
+                    <div class="w-6/12 bg-white flex flex-col gap-4 pt-3"><h2 class="text-right font-IranSans text-[20px] pb-9">اوت چوکو مزکس(رژیمی)120گرم اصل مالزی(وگن)درجه یک پک(1)بسته ای یک هدیه خوشمزه و مفید</h2> 
+                        <div class="w-full   flex flex-col relative justify-center items-end">
+                            <a href="#" class="text-right font-IranSans"> 18 *</a>
+                            <a href="#" class="text-right font-IranSans flex flex-row justify-center items-end"> <p class="text-right">(3نظر)</p> 5 *</a>
+                        </div>
+                        <div class="flex flex-col justify-center items-end pb-12">
+                            <h2 class="font-IranSans text-right text-gray-700">ارسال غرفه دار: همین الان</h2>
+                            <h2 class="font-IranSans text-right text-gray-700">ارسال از: قم<h2>
+                        </div>
+                           <div class="w-full h-12 bg-red-200 rounded justify-center items-center text-right pr-4 font-IranSans text-[14px]">
+                            <span class="font-IranSans text-orange-500 text-[16px] text-right">پایین‌ترین </span>
+                             قیمت غرفه‌دار در 
+                             <span class="font-IranSans text-orange-500 text-[16px] text-right">ماه</span> 
+                             گذشته
+                        </div> 
+                        <div class="w-full bg-red-200 rounded justify-center items-end text-right pr-4 font-IranSans text-[14px] p-2">
+                            این محصول
+                            <span class="font-IranSans text-orange-500 text-[16px] text-right"> تخفیف واقعی</span>
+                            داره
+                            <div  class="w-20 h-8 bg-white hidden"></div>
+                        </div>
+                        <div class="w-full lg:flex sm:flex lg:flex-row sm:flex-col lg:justify-evenly sm:justify-end lg:items-center sm:items-end lg:gap-4 lg:flex-wrap sm:flex-wrap">
+                          <div class=" lg:w-3/12 sm:w-3/12 font-IranSans flex flex-row justify-center items-center gap-1 text-[12px] ">
+                            <p class="text-right">  تسویه با غرفه‌دار فقط بعد از رضایت مشتری </p> 
+                            <img src="./media/mnmnnm2.webp" alt="">
+                        </div>
+                          <div class=" lg:w-3/12 sm:w-3/12 font-IranSans flex flex-row justify-center gap-1 items-center text-[12px] "><p>  ارتباط مستقیم با غرفه‌دارها
+                        </p>
+                        <img src="./media/nmnmmn.webp" alt="">
+                    </div>
+                          <div class="lg:w-3/12 sm:w-3/12 font-IranSans flex flex-row justify-center gap-1 items-center text-[12px] "><p>پشتیبانی آنلاین و تلفنی </p>
+                            <img src="./media/mnmnmn3.webp" alt="">
+                        </div>
+                        </div>
+                </div>
+                    <div class="w-6/12 bg-white lg:flex sm:flex flex-col lg:justify-start sm:justify-center lg:items-center sm:items-start lg:gap-4 sm:gap-96 lg:mb-0 sm:mb-96 lg:pb-0 sm:pb-96">
+<div id="controls-carousel" class="relative w-full z-0" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./media/zxcdsa.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="./media/zxsa.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+                      <div class="w-full  text-right flex flex-row justify-end gap-2">
+                        <div class="w-3/12 "><img src="./media/smallllll.jpg" alt=""></div>
+                        <div class="w-3/12 "><img src="./media/smallllll.jpg" alt=""></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="lg:w-[405px] sm:w-[600px] lg:flex  sm:flex flex-col justify-end items-end lg:mr-96 sm:mr-0 lg:left-[85px] lg:absolute sm:absolute lg:p-7 sm:p-2 lg:mb-0  sm:mb-6 lg:top-64 sm:top-[360px] lg:mt-0 sm:mb96">
+                  <div class="w-full bg-white p-3">
+                    <div class="w-full bg-white p-0">
+                    <div class="  flex flex-row justify-start items-start gap-4 pt-4 ">
+                        <div class=" bg-orange-200 text-orange-500 rounded p-1">%9</div>
+                        <div class=" rounded font-IranSans flex flex-row items-center gap-1">
+                          <img src="./media/tomaan.png" alt="" class="w-5 h-5">
+                          <h2 class="text-[16px] ">32,000 </h2>
+                        </div>
+                        <div class="text-gray-500 text-[14px] line-through">35,000</div>
+                    </div>
+                    <div class="w-full pt-6 flex flex-row justify-center items-start gap-3">
+                        <button class="w-full p-2 font-semibold transition hover:bg-orange-700
+                         text-white bg-orange-600 text-[16px] font-IranSans rounded">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+                <div class="lg:w-11/12 sm:w-10/12 lg:flex sm:flex flex-col lg:justify-end sm:justify-center items-end lg:pl-11 lg:ml-3 lg:mt-0 sm:mt-6">
+                  <div class="lg:w-9/12 sm:w-8/12 bg-white  p-6 flex flex-col gap-5 pb-5">
+                    <button class="w-full font-IranSans flex flex-row justify-between font-bold text-[16px]"> ^<h3>ویژگی های محصول</h3>
+                    </button>
+                    <div class="w-full flex flex-row gap-2 justify-end items-start font-IranSans">
+                      <p class="font-IranSans text-[16px] text-gray-800">130 گرم </p>
+                      :
+                      <h3 class="font-IranSans font-bold">وزن خالص</h3>
+                      
+                    </div>
+                    <div class="w-full flex flex-row gap-2 justify-end items-start font-IranSans">
+                      <p class="font-IranSans text-[16px] text-gray-800">150 گرم</p>
+                      :
+                      <h3 class="font-IranSans font-bold">وزن با بسته‌بندی </h3>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-11/12 sm:w-8/12 lg:flex sm:flex flex-col lg:justify-end sm:justify-center  items-end lg:pl-11 lg:ml-3 lg:mt-0 sm:mt-6">
+                  <div class="lg:w-9/12 sm:w-8/12 bg-white pt-3 p-6 flex flex-col gap-5 pb-10">
+                    <div class="w-full font-IranSans flex flex-row justify-end font-bold text-[16px]"><h3>  
+                      درباره محصول
+                    </h3>
+                    </div>
+                    <div class="w-full flex flex-row gap-2 justify-end items-start font-IranSans">
+                      <p class="font-IranSans text-[16px] text-gray-800">لواشک _ ترشک مینیاتوری</p>
+                    </div>
+                    <div class="w-full flex flex-row gap-2 justify-end items-start font-IranSans">
+                      <p class="font-IranSans text-[16px] text-gray-800"> ترکیبی از:
+                          لواشک کیوی،انار و ترشک انار+چنگال مخصوص و قلب </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-11/12 sm:w-8/12 lg:flex sm:flex flex-col lg:justify-end sm:justify-center  items-end lg:pl-11 lg:ml-3 lg:mt-0 sm:mt-16">
+                  <div class="lg:w-9/12 sm:w-8/12 bg-white pt-3 p-6 flex flex-col gap-5 pb-10">
+                    <div class="w-full font-IranSans flex flex-row justify-end font-bold text-[16px]"><h3>  
+                      تجربه‌های خریداران
+                    </h3>
+                    </div>
+                    <div class="w-full flex flex-row gap-2 justify-end items-start font-IranSans">
+                      <p class="font-IranSans text-[16px] text-gray-800"> 
+                        برای این محصول هنوز تجربه ای ثبت نشده</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="w-full flex flex-row justify-center items-center">
+                  <a href="index.html" id="fortwopage" target="_self" class=" font-IranSans text-[14px] border p-2 mx-auto  rounded border-gray-500 m-3 hover:bg-slate-500 transition hover:text-white">بازگشت به صفحه اول</a>
+                </div>
+                <div class="w-full flex flex-row justify-center items-center">
+                  <a href="two.html" id="fortwopage" target="_self" class=" font-IranSans text-[14px] border p-2 mx-auto  rounded border-gray-500 m-3 hover:bg-slate-500 transition hover:text-white">بازگشت به صفحه دوم</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
